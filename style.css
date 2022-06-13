@@ -27,6 +27,12 @@ flex:- grow shrink basis(auto , default value) */
 
 /* nested flex:-  To create flex inside an flex box*/
 
+/* text align :- any direction */
+/* text align last :- to change last line of para  */
+/* text transform :- uppercase | lowercase | capatalize */
+/* text indent :- works in px , works on first line  */
+/* word spacing :- space btw words */
+/* letter spacing :- space btw letter */
 
 /* body {
   display: flex;
@@ -83,10 +89,10 @@ flex:- grow shrink basis(auto , default value) */
   /* order: -1; */
   /* margin-right: auto; */
 }
-.subitem{
+.subitem {
   margin: 5px;
   background-color: chocolate;
-  flex-grow:1;
+  flex-grow: 1;
 }
 .box3 {
   background-color: rgb(219, 17, 95);
@@ -94,4 +100,23 @@ flex:- grow shrink basis(auto , default value) */
 }
 .box4 {
   background-color: rgb(145, 12, 235);
+}
+
+#form {
+  border: 2px solid black;
+  padding: 20px;
+  list-style: none;
+  background: rgb(42, 182, 0);
+  margin-bottom: 100px;
+}
+#form li {
+  display: flex;
+  justify-content: flex-end;
+}
+#form li label {
+  flex: 1;
+}
+#form li input {
+  flex: 2;
+  border: 1px solid black;
 }
